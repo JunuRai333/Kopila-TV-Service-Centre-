@@ -123,7 +123,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           alternateName: "Kopila TV Services Centre",
           description:
             "Electronics repair and electrical shop in Gaighat, Udayapur, Nepal. Established 2060 B.S.",
-          url: "https://kopila-tv-service-centre.lovable.app",
+          url: "https://https://kopila-tv-service-centre.vercel.app/",
           telephone: "+977-9842811905",
           address: {
             "@type": "PostalAddress",
@@ -143,7 +143,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             name: "Gaighat",
           },
           hasMap: "https://www.google.com/maps?q=Gaighat,+Udayapur,+Nepal",
-          sameAs: ["https://kopila-tv-service-centre.lovable.app"],
+          sameAs: ["https://https://kopila-tv-service-centre.vercel.app/"],
         }),
       },
     ],
