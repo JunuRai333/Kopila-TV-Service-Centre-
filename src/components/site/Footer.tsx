@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Clock, MapPin, MessageCircle, Phone } from "lucide-react";
 import { BUSINESS } from "@/lib/content";
 import { useLanguage } from "@/lib/i18n";
-import logo from "@/assets/kopila-logo.png.asset.json";
+import logo from "@/assets/kopila-logo.png";
 
 const links = [
   { to: "/", key: "nav.home" },
@@ -23,7 +23,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <img
-              src={logo.url}
+              src={logo}
               alt="Kopila TV Services Centre logo"
               width={926}
               height={414}

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { BUSINESS } from "@/lib/content";
 import { useLanguage } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/kopila-logo.png.asset.json";
+import logo from "@/assets/kopila-logo.png";
 
 const links = [
   { to: "/", key: "nav.home" },
@@ -28,7 +28,7 @@ export function Header() {
       <div className="container-page flex h-16 items-center justify-between gap-4 lg:h-20">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <img
-            src={logo.url}
+            src={logo}
             alt="Kopila TV Services Centre logo"
             width={926}
             height={414}

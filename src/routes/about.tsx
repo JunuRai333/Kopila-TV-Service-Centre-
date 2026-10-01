@@ -4,7 +4,7 @@ import { Reveal } from "@/components/site/Reveal";
 import { ActionButtons } from "@/components/site/ActionButtons";
 import { PROCESS, WHY_US } from "@/lib/content";
 import { useBilingual, useLanguage } from "@/lib/i18n";
-import shopInteriorAsset from "@/assets/shop-interior-real.jpg.asset.json";
+import shopInteriorAsset from "@/assets/shop-interior-real.jpg";
 import repairBench from "@/assets/repair-bench.jpg";
 
 export const Route = createFileRoute("/about")({
@@ -48,7 +48,7 @@ function AboutPage() {
         <div className="grid items-start gap-12 lg:grid-cols-2">
           <Reveal>
             <img
-              src={shopInteriorAsset.url}
+              src={shopInteriorAsset}
               alt="Inside Kopila TV Services Centre in Gaighat: shelves stocked with electrical goods, fans and DishHome products"
               width={1280}
               height={960}

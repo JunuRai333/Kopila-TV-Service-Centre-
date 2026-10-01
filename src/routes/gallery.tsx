@@ -6,8 +6,8 @@ import { useBilingual, useLanguage } from "@/lib/i18n";
 import repairBench from "@/assets/repair-bench.jpg";
 import productsKitchen from "@/assets/products-kitchen.jpg";
 import productsElectrical from "@/assets/products-electrical.jpg";
-import ownerShop from "@/assets/owner-shop.png.asset.json";
-import storefrontPhoto from "@/assets/storefront-photo.png.asset.json";
+import ownerShop from "@/assets/owner-shop.png";
+import storefrontPhoto from "@/assets/storefront-photo.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -36,7 +36,7 @@ function GalleryPage() {
 
   const photos = [
     {
-      src: ownerShop.url,
+      src: ownerShop,
       w: 1200,
       h: 912,
       caption: b("Our team at the shop", "पसलमा हाम्रो टोली"),
@@ -44,7 +44,7 @@ function GalleryPage() {
       wide: true,
     },
     {
-      src: storefrontPhoto.url,
+      src: storefrontPhoto,
       w: 1200,
       h: 912,
       caption: b("Our shop in Gaighat", "गाईघाटस्थित हाम्रो पसल"),

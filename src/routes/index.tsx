@@ -17,7 +17,7 @@ import {
 import shopInterior from "@/assets/shop-interior.jpg";
 import repairBench from "@/assets/repair-bench.jpg";
 import { PRODUCT_IMAGES } from "@/lib/product-images";
-import ownerShop from "@/assets/owner-shop.png.asset.json";
+import ownerShop from "@/assets/owner-shop.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -118,7 +118,7 @@ function HomePage() {
             className="relative"
           >
             <img
-              src={ownerShop.url}
+              src={ownerShop}
               alt="The owner of Kopila TV Service Center outside the shop in Gaighat, Udayapur"
               width={1200}
               height={912}
