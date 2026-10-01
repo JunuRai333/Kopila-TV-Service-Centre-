@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kopila-tv-service-centre.lovable.app/sitemap.xml
